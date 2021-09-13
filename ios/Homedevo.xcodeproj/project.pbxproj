@@ -1,0 +1,918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008CF31BAF2741469E4B65B1 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D3848CD04B74CC4A9693C3C /* SimpleLineIcons.ttf */; };
+		00E356F31AD99517003FC87E /* HomedevoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* HomedevoTests.m */; };
+		02AC89C5FF1343928FB219DB /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C4FB95F466E404983A5A156 /* AntDesign.ttf */; };
+		09B9622581BB46119A321421 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B305C86B8C6B4814B7F90005 /* Roboto-Medium.ttf */; };
+		0A6C56D146C34CEFAC8CCA35 /* Poppins-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 692C87C58598454182535B9B /* Poppins-ExtraLight.otf */; };
+		0E6A9A4A64CB404493C570ED /* Poppins-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81B2154E638442E09A989B85 /* Poppins-ThinItalic.otf */; };
+		10CA90B44B4241E08B062340 /* Poppins-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5BF81B11D4F14EDA9E51A10D /* Poppins-ExtraBoldItalic.otf */; };
+		116A3AE99C904EA2ABD19048 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFF077F433F9485EAACC2B3D /* Ionicons.ttf */; };
+		12E0D792CB50432F8642D9E0 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9528938982B04FB5AB24E687 /* MaterialCommunityIcons.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		21151952D1234C82AF31CEAA /* Poppins-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E1E92F024E184C4C9498D430 /* Poppins-SemiBold.otf */; };
+		21A43B4BD96346F9A8D00EF7 /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C295E95F8F774F3AA5D49125 /* SFProText-Regular.ttf */; };
+		2983B3B0C0CEE885286915C8 /* libPods-Homedevo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 622D0EA870A958422CF88513 /* libPods-Homedevo.a */; };
+		2FA0336E8A8B375D3F427CDA /* libPods-Homedevo-HomedevoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77227A3377B380A290FF1ACA /* libPods-Homedevo-HomedevoTests.a */; };
+		30D32B23E4984D4FB99340D5 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 464482C668754CBFB5A04EB5 /* FontAwesome5_Solid.ttf */; };
+		4E77F5FFDB6A4DD98F698740 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEB83696780B4DF5BF94802A /* Roboto-Regular.ttf */; };
+		53795D6CB5DE41439A1910BB /* Poppins-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CEEBFA80494740828066D582 /* Poppins-LightItalic.otf */; };
+		55A1D7B568C741F1B16FF74A /* OpenSauceSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30AFCE1B2A4E46C0B43EC344 /* OpenSauceSans-Bold.ttf */; };
+		58B9F1FEF8BC436AB57E0DE6 /* Poppins-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 52FBB6FAC6084471B5058AE9 /* Poppins-Regular.otf */; };
+		5B169BC1D8D747BE8E7F7013 /* Poppins-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C096ED1F609949AF847855E2 /* Poppins-ExtraLightItalic.otf */; };
+		6A9EBE98A1F8407586B5ECAB /* Poppins-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A49E1F0D74D944F39799D209 /* Poppins-Italic.otf */; };
+		6C29F56E3D7C418BB5F06070 /* OpenSauceSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E291E6E4F1074208B20F98D4 /* OpenSauceSans-Light.ttf */; };
+		78D8A9A31F04496EAF9D4285 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 432FEB96CD9740D6B938420C /* Roboto-Light.ttf */; };
+		7C50117B545D40E49E51B885 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECA542DE368A457E8C5A8077 /* Octicons.ttf */; };
+		8007CA22545540969E705137 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8F16FC7083745D6AD28F631 /* Zocial.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		822A7ECF26DA1AA1004B3A14 /* libswiftWebKit.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 822A7ECE26DA1AA1004B3A14 /* libswiftWebKit.tbd */; };
+		82329FC926B2EC0500C92B45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82329FC826B2EC0500C92B45 /* GoogleService-Info.plist */; };
+		82329FD226B2EC6500C92B45 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82329FD126B2EC6500C92B45 /* File.swift */; };
+		84CFEF4AA79E4C4784235243 /* Poppins-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B49DEE73C716415B8399F07D /* Poppins-SemiBoldItalic.otf */; };
+		94075860DA484856B48F6CDB /* Poppins-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F307C3FAB9B44F359E4FF70A /* Poppins-BlackItalic.otf */; };
+		A3189333F8554AE494DD8372 /* Poppins-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A7FDDFE26A964C1681D1293F /* Poppins-Light.otf */; };
+		A42F7E0F9E584120A482DC6D /* Poppins-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76F2901424C74CBCB9E94668 /* Poppins-Black.otf */; };
+		A608859326144C26B1C6E5A5 /* Poppins-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = C006D0A19AD9431B92755CDF /* Poppins-Thin.otf */; };
+		AC3DF82268AF4C039F0F5199 /* OpenSauceSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 920935A9D67841D5A3120AAA /* OpenSauceSans-Medium.ttf */; };
+		ACA251A56F024854AD8AF848 /* Poppins-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F6293B248394B3CBB6C2814 /* Poppins-ExtraBold.otf */; };
+		B0CACD214C71460B8A6D4262 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F8EF0540D344060AF9AD782 /* Entypo.ttf */; };
+		B50B2240552846E9BEF0A9AD /* SFProDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46C79DB1A7E14D92A4A3D621 /* SFProDisplay-Semibold.ttf */; };
+		B6628C3C629041839C2FB54D /* Poppins-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE3943C4516C44B7AA8AFF9B /* Poppins-Bold.otf */; };
+		B6F9ED5E801E41CAA6F018D6 /* Poppins-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89C339B9DC5E4628B58B48CB /* Poppins-Medium.otf */; };
+		B719CA7C3A484FF6A42C8166 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC6770D8A4A64663B634A4C2 /* FontAwesome5_Regular.ttf */; };
+		B8E268151D114BF3AEADC21A /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C16B70E3ACC14962B8617A9C /* SFProDisplay-Regular.ttf */; };
+		BB396124629D44CB9B29376F /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBECCFFF004749BBB58DD8FD /* EvilIcons.ttf */; };
+		C55D16272E314960863534EA /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0356E0BE245543B2AFE67AEE /* Roboto-Bold.ttf */; };
+		D1BAE3CFD4924A559C9971FE /* Poppins-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10100FE76788484D85FCFB6D /* Poppins-BoldItalic.otf */; };
+		D6AF53E9A6874E47BA1FE8D7 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E52AFF548B5B4E4B97ABE590 /* Foundation.ttf */; };
+		DA13A2AB78E84431A9E57515 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54AE44AC922A43418C123036 /* FontAwesome5_Brands.ttf */; };
+		DFC8B108B95E45F4B58F73E9 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D204922C06F84A999E5063D5 /* Fontisto.ttf */; };
+		ED0A5BC81C6245CD878D6A19 /* OpenSauceSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 657829BE75CC40AF9E6EED30 /* OpenSauceSans-Regular.ttf */; };
+		EE1E90CD994E4A4D93EBDE0B /* Poppins-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 06CAF1752B874EB9A4D49D5D /* Poppins-MediumItalic.otf */; };
+		F4F381EE75164C0C9666BE12 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F69D2A56B671461486A51F7E /* MaterialIcons.ttf */; };
+		F5388B8B9F3F4A09B1FF4652 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80380F159A664058B53C5CEA /* Feather.ttf */; };
+		FDEBEAF81D9C40A4ABB6C893 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A515422379B4D128C1731D2 /* FontAwesome.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Homedevo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* HomedevoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomedevoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* HomedevoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomedevoTests.m; sourceTree = "<group>"; };
+		0356E0BE245543B2AFE67AEE /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		06CAF1752B874EB9A4D49D5D /* Poppins-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-MediumItalic.otf"; path = "../src/assets/fonts/Poppins-MediumItalic.otf"; sourceTree = "<group>"; };
+		0A515422379B4D128C1731D2 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		0C4FB95F466E404983A5A156 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		0D3848CD04B74CC4A9693C3C /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		10100FE76788484D85FCFB6D /* Poppins-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BoldItalic.otf"; path = "../src/assets/fonts/Poppins-BoldItalic.otf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Homedevo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homedevo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Homedevo/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Homedevo/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Homedevo/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Homedevo/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Homedevo/main.m; sourceTree = "<group>"; };
+		258D4F88ADFD3966C3362930 /* Pods-Homedevo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homedevo.release.xcconfig"; path = "Target Support Files/Pods-Homedevo/Pods-Homedevo.release.xcconfig"; sourceTree = "<group>"; };
+		30AFCE1B2A4E46C0B43EC344 /* OpenSauceSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSauceSans-Bold.ttf"; path = "../src/assets/fonts/OpenSauceSans-Bold.ttf"; sourceTree = "<group>"; };
+		432FEB96CD9740D6B938420C /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../src/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		464482C668754CBFB5A04EB5 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		46C79DB1A7E14D92A4A3D621 /* SFProDisplay-Semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-Semibold.ttf"; path = "../src/assets/fonts/SFProDisplay-Semibold.ttf"; sourceTree = "<group>"; };
+		52FBB6FAC6084471B5058AE9 /* Poppins-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.otf"; path = "../src/assets/fonts/Poppins-Regular.otf"; sourceTree = "<group>"; };
+		54AE44AC922A43418C123036 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		5BF81B11D4F14EDA9E51A10D /* Poppins-ExtraBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBoldItalic.otf"; path = "../src/assets/fonts/Poppins-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		5F8EF0540D344060AF9AD782 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		622D0EA870A958422CF88513 /* libPods-Homedevo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Homedevo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		657829BE75CC40AF9E6EED30 /* OpenSauceSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSauceSans-Regular.ttf"; path = "../src/assets/fonts/OpenSauceSans-Regular.ttf"; sourceTree = "<group>"; };
+		692C87C58598454182535B9B /* Poppins-ExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLight.otf"; path = "../src/assets/fonts/Poppins-ExtraLight.otf"; sourceTree = "<group>"; };
+		76F2901424C74CBCB9E94668 /* Poppins-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.otf"; path = "../src/assets/fonts/Poppins-Black.otf"; sourceTree = "<group>"; };
+		77227A3377B380A290FF1ACA /* libPods-Homedevo-HomedevoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Homedevo-HomedevoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80380F159A664058B53C5CEA /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Homedevo/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81B2154E638442E09A989B85 /* Poppins-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ThinItalic.otf"; path = "../src/assets/fonts/Poppins-ThinItalic.otf"; sourceTree = "<group>"; };
+		822A7ECE26DA1AA1004B3A14 /* libswiftWebKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftWebKit.tbd; path = usr/lib/swift/libswiftWebKit.tbd; sourceTree = SDKROOT; };
+		82329FC826B2EC0500C92B45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		82329FD026B2EC6500C92B45 /* Homedevo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Homedevo-Bridging-Header.h"; sourceTree = "<group>"; };
+		82329FD126B2EC6500C92B45 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		89077114398A81991A5BED9A /* Pods-Homedevo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homedevo.debug.xcconfig"; path = "Target Support Files/Pods-Homedevo/Pods-Homedevo.debug.xcconfig"; sourceTree = "<group>"; };
+		89C339B9DC5E4628B58B48CB /* Poppins-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.otf"; path = "../src/assets/fonts/Poppins-Medium.otf"; sourceTree = "<group>"; };
+		8F6293B248394B3CBB6C2814 /* Poppins-ExtraBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.otf"; path = "../src/assets/fonts/Poppins-ExtraBold.otf"; sourceTree = "<group>"; };
+		920935A9D67841D5A3120AAA /* OpenSauceSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSauceSans-Medium.ttf"; path = "../src/assets/fonts/OpenSauceSans-Medium.ttf"; sourceTree = "<group>"; };
+		9528938982B04FB5AB24E687 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		A49E1F0D74D944F39799D209 /* Poppins-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Italic.otf"; path = "../src/assets/fonts/Poppins-Italic.otf"; sourceTree = "<group>"; };
+		A7FDDFE26A964C1681D1293F /* Poppins-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.otf"; path = "../src/assets/fonts/Poppins-Light.otf"; sourceTree = "<group>"; };
+		A8F16FC7083745D6AD28F631 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		B305C86B8C6B4814B7F90005 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../src/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		B49DEE73C716415B8399F07D /* Poppins-SemiBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBoldItalic.otf"; path = "../src/assets/fonts/Poppins-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		C006D0A19AD9431B92755CDF /* Poppins-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Thin.otf"; path = "../src/assets/fonts/Poppins-Thin.otf"; sourceTree = "<group>"; };
+		C096ED1F609949AF847855E2 /* Poppins-ExtraLightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLightItalic.otf"; path = "../src/assets/fonts/Poppins-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		C16B70E3ACC14962B8617A9C /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-Regular.ttf"; path = "../src/assets/fonts/SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		C1E6895BDBD8071F4C481EC1 /* Pods-Homedevo-HomedevoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homedevo-HomedevoTests.release.xcconfig"; path = "Target Support Files/Pods-Homedevo-HomedevoTests/Pods-Homedevo-HomedevoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C295E95F8F774F3AA5D49125 /* SFProText-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProText-Regular.ttf"; path = "../src/assets/fonts/SFProText-Regular.ttf"; sourceTree = "<group>"; };
+		CBECCFFF004749BBB58DD8FD /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		CE3943C4516C44B7AA8AFF9B /* Poppins-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.otf"; path = "../src/assets/fonts/Poppins-Bold.otf"; sourceTree = "<group>"; };
+		CEB83696780B4DF5BF94802A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		CEEBFA80494740828066D582 /* Poppins-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-LightItalic.otf"; path = "../src/assets/fonts/Poppins-LightItalic.otf"; sourceTree = "<group>"; };
+		D204922C06F84A999E5063D5 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		E1E92F024E184C4C9498D430 /* Poppins-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.otf"; path = "../src/assets/fonts/Poppins-SemiBold.otf"; sourceTree = "<group>"; };
+		E291E6E4F1074208B20F98D4 /* OpenSauceSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSauceSans-Light.ttf"; path = "../src/assets/fonts/OpenSauceSans-Light.ttf"; sourceTree = "<group>"; };
+		E52AFF548B5B4E4B97ABE590 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		EC6770D8A4A64663B634A4C2 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		ECA542DE368A457E8C5A8077 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F307C3FAB9B44F359E4FF70A /* Poppins-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BlackItalic.otf"; path = "../src/assets/fonts/Poppins-BlackItalic.otf"; sourceTree = "<group>"; };
+		F69D2A56B671461486A51F7E /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		F70D3EEDB380D82FF1AAF043 /* Pods-Homedevo-HomedevoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homedevo-HomedevoTests.debug.xcconfig"; path = "Target Support Files/Pods-Homedevo-HomedevoTests/Pods-Homedevo-HomedevoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFF077F433F9485EAACC2B3D /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA0336E8A8B375D3F427CDA /* libPods-Homedevo-HomedevoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822A7ECF26DA1AA1004B3A14 /* libswiftWebKit.tbd in Frameworks */,
+				2983B3B0C0CEE885286915C8 /* libPods-Homedevo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* HomedevoTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* HomedevoTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = HomedevoTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C9F075A48CB08E7DB69E0E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89077114398A81991A5BED9A /* Pods-Homedevo.debug.xcconfig */,
+				258D4F88ADFD3966C3362930 /* Pods-Homedevo.release.xcconfig */,
+				F70D3EEDB380D82FF1AAF043 /* Pods-Homedevo-HomedevoTests.debug.xcconfig */,
+				C1E6895BDBD8071F4C481EC1 /* Pods-Homedevo-HomedevoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Homedevo */ = {
+			isa = PBXGroup;
+			children = (
+				82329FC826B2EC0500C92B45 /* GoogleService-Info.plist */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				82329FD126B2EC6500C92B45 /* File.swift */,
+				82329FD026B2EC6500C92B45 /* Homedevo-Bridging-Header.h */,
+			);
+			name = Homedevo;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				822A7ECE26DA1AA1004B3A14 /* libswiftWebKit.tbd */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				622D0EA870A958422CF88513 /* libPods-Homedevo.a */,
+				77227A3377B380A290FF1ACA /* libPods-Homedevo-HomedevoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Homedevo */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* HomedevoTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				0C9F075A48CB08E7DB69E0E2 /* Pods */,
+				F81D116A4A5349F79428F282 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Homedevo.app */,
+				00E356EE1AD99517003FC87E /* HomedevoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F81D116A4A5349F79428F282 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C4FB95F466E404983A5A156 /* AntDesign.ttf */,
+				5F8EF0540D344060AF9AD782 /* Entypo.ttf */,
+				CBECCFFF004749BBB58DD8FD /* EvilIcons.ttf */,
+				80380F159A664058B53C5CEA /* Feather.ttf */,
+				0A515422379B4D128C1731D2 /* FontAwesome.ttf */,
+				54AE44AC922A43418C123036 /* FontAwesome5_Brands.ttf */,
+				EC6770D8A4A64663B634A4C2 /* FontAwesome5_Regular.ttf */,
+				464482C668754CBFB5A04EB5 /* FontAwesome5_Solid.ttf */,
+				D204922C06F84A999E5063D5 /* Fontisto.ttf */,
+				E52AFF548B5B4E4B97ABE590 /* Foundation.ttf */,
+				FFF077F433F9485EAACC2B3D /* Ionicons.ttf */,
+				9528938982B04FB5AB24E687 /* MaterialCommunityIcons.ttf */,
+				F69D2A56B671461486A51F7E /* MaterialIcons.ttf */,
+				ECA542DE368A457E8C5A8077 /* Octicons.ttf */,
+				0D3848CD04B74CC4A9693C3C /* SimpleLineIcons.ttf */,
+				A8F16FC7083745D6AD28F631 /* Zocial.ttf */,
+				30AFCE1B2A4E46C0B43EC344 /* OpenSauceSans-Bold.ttf */,
+				E291E6E4F1074208B20F98D4 /* OpenSauceSans-Light.ttf */,
+				920935A9D67841D5A3120AAA /* OpenSauceSans-Medium.ttf */,
+				657829BE75CC40AF9E6EED30 /* OpenSauceSans-Regular.ttf */,
+				76F2901424C74CBCB9E94668 /* Poppins-Black.otf */,
+				F307C3FAB9B44F359E4FF70A /* Poppins-BlackItalic.otf */,
+				CE3943C4516C44B7AA8AFF9B /* Poppins-Bold.otf */,
+				10100FE76788484D85FCFB6D /* Poppins-BoldItalic.otf */,
+				8F6293B248394B3CBB6C2814 /* Poppins-ExtraBold.otf */,
+				5BF81B11D4F14EDA9E51A10D /* Poppins-ExtraBoldItalic.otf */,
+				692C87C58598454182535B9B /* Poppins-ExtraLight.otf */,
+				C096ED1F609949AF847855E2 /* Poppins-ExtraLightItalic.otf */,
+				A49E1F0D74D944F39799D209 /* Poppins-Italic.otf */,
+				A7FDDFE26A964C1681D1293F /* Poppins-Light.otf */,
+				CEEBFA80494740828066D582 /* Poppins-LightItalic.otf */,
+				89C339B9DC5E4628B58B48CB /* Poppins-Medium.otf */,
+				06CAF1752B874EB9A4D49D5D /* Poppins-MediumItalic.otf */,
+				52FBB6FAC6084471B5058AE9 /* Poppins-Regular.otf */,
+				E1E92F024E184C4C9498D430 /* Poppins-SemiBold.otf */,
+				B49DEE73C716415B8399F07D /* Poppins-SemiBoldItalic.otf */,
+				C006D0A19AD9431B92755CDF /* Poppins-Thin.otf */,
+				81B2154E638442E09A989B85 /* Poppins-ThinItalic.otf */,
+				0356E0BE245543B2AFE67AEE /* Roboto-Bold.ttf */,
+				432FEB96CD9740D6B938420C /* Roboto-Light.ttf */,
+				B305C86B8C6B4814B7F90005 /* Roboto-Medium.ttf */,
+				CEB83696780B4DF5BF94802A /* Roboto-Regular.ttf */,
+				C16B70E3ACC14962B8617A9C /* SFProDisplay-Regular.ttf */,
+				46C79DB1A7E14D92A4A3D621 /* SFProDisplay-Semibold.ttf */,
+				C295E95F8F774F3AA5D49125 /* SFProText-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* HomedevoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "HomedevoTests" */;
+			buildPhases = (
+				165A6CC833DC5976B4B51EB1 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				E1D1B7624568D2687154718C /* [CP] Embed Pods Frameworks */,
+				25BCB294CAA20C5352D1AB82 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = HomedevoTests;
+			productName = HomedevoTests;
+			productReference = 00E356EE1AD99517003FC87E /* HomedevoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Homedevo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Homedevo" */;
+			buildPhases = (
+				9D19735AFF06EF3260316056 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				D511C37B7DC13D59362FAB13 /* [CP] Embed Pods Frameworks */,
+				8C3026574D38A5A80BFD316A /* [CP] Copy Pods Resources */,
+				F068EA00B6F4454B11228179 /* [CP-User] [RNFB] Core Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Homedevo;
+			productName = Homedevo;
+			productReference = 13B07F961A680F5B00A75B9A /* Homedevo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Homedevo" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Homedevo */,
+				00E356ED1AD99517003FC87E /* HomedevoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				82329FC926B2EC0500C92B45 /* GoogleService-Info.plist in Resources */,
+				02AC89C5FF1343928FB219DB /* AntDesign.ttf in Resources */,
+				B0CACD214C71460B8A6D4262 /* Entypo.ttf in Resources */,
+				BB396124629D44CB9B29376F /* EvilIcons.ttf in Resources */,
+				F5388B8B9F3F4A09B1FF4652 /* Feather.ttf in Resources */,
+				FDEBEAF81D9C40A4ABB6C893 /* FontAwesome.ttf in Resources */,
+				DA13A2AB78E84431A9E57515 /* FontAwesome5_Brands.ttf in Resources */,
+				B719CA7C3A484FF6A42C8166 /* FontAwesome5_Regular.ttf in Resources */,
+				30D32B23E4984D4FB99340D5 /* FontAwesome5_Solid.ttf in Resources */,
+				DFC8B108B95E45F4B58F73E9 /* Fontisto.ttf in Resources */,
+				D6AF53E9A6874E47BA1FE8D7 /* Foundation.ttf in Resources */,
+				116A3AE99C904EA2ABD19048 /* Ionicons.ttf in Resources */,
+				12E0D792CB50432F8642D9E0 /* MaterialCommunityIcons.ttf in Resources */,
+				F4F381EE75164C0C9666BE12 /* MaterialIcons.ttf in Resources */,
+				7C50117B545D40E49E51B885 /* Octicons.ttf in Resources */,
+				008CF31BAF2741469E4B65B1 /* SimpleLineIcons.ttf in Resources */,
+				8007CA22545540969E705137 /* Zocial.ttf in Resources */,
+				55A1D7B568C741F1B16FF74A /* OpenSauceSans-Bold.ttf in Resources */,
+				6C29F56E3D7C418BB5F06070 /* OpenSauceSans-Light.ttf in Resources */,
+				AC3DF82268AF4C039F0F5199 /* OpenSauceSans-Medium.ttf in Resources */,
+				ED0A5BC81C6245CD878D6A19 /* OpenSauceSans-Regular.ttf in Resources */,
+				A42F7E0F9E584120A482DC6D /* Poppins-Black.otf in Resources */,
+				94075860DA484856B48F6CDB /* Poppins-BlackItalic.otf in Resources */,
+				B6628C3C629041839C2FB54D /* Poppins-Bold.otf in Resources */,
+				D1BAE3CFD4924A559C9971FE /* Poppins-BoldItalic.otf in Resources */,
+				ACA251A56F024854AD8AF848 /* Poppins-ExtraBold.otf in Resources */,
+				10CA90B44B4241E08B062340 /* Poppins-ExtraBoldItalic.otf in Resources */,
+				0A6C56D146C34CEFAC8CCA35 /* Poppins-ExtraLight.otf in Resources */,
+				5B169BC1D8D747BE8E7F7013 /* Poppins-ExtraLightItalic.otf in Resources */,
+				6A9EBE98A1F8407586B5ECAB /* Poppins-Italic.otf in Resources */,
+				A3189333F8554AE494DD8372 /* Poppins-Light.otf in Resources */,
+				53795D6CB5DE41439A1910BB /* Poppins-LightItalic.otf in Resources */,
+				B6F9ED5E801E41CAA6F018D6 /* Poppins-Medium.otf in Resources */,
+				EE1E90CD994E4A4D93EBDE0B /* Poppins-MediumItalic.otf in Resources */,
+				58B9F1FEF8BC436AB57E0DE6 /* Poppins-Regular.otf in Resources */,
+				21151952D1234C82AF31CEAA /* Poppins-SemiBold.otf in Resources */,
+				84CFEF4AA79E4C4784235243 /* Poppins-SemiBoldItalic.otf in Resources */,
+				A608859326144C26B1C6E5A5 /* Poppins-Thin.otf in Resources */,
+				0E6A9A4A64CB404493C570ED /* Poppins-ThinItalic.otf in Resources */,
+				C55D16272E314960863534EA /* Roboto-Bold.ttf in Resources */,
+				78D8A9A31F04496EAF9D4285 /* Roboto-Light.ttf in Resources */,
+				09B9622581BB46119A321421 /* Roboto-Medium.ttf in Resources */,
+				4E77F5FFDB6A4DD98F698740 /* Roboto-Regular.ttf in Resources */,
+				B8E268151D114BF3AEADC21A /* SFProDisplay-Regular.ttf in Resources */,
+				B50B2240552846E9BEF0A9AD /* SFProDisplay-Semibold.ttf in Resources */,
+				21A43B4BD96346F9A8D00EF7 /* SFProText-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		165A6CC833DC5976B4B51EB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Homedevo-HomedevoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25BCB294CAA20C5352D1AB82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Homedevo-HomedevoTests/Pods-Homedevo-HomedevoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Homedevo-HomedevoTests/Pods-Homedevo-HomedevoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Homedevo-HomedevoTests/Pods-Homedevo-HomedevoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C3026574D38A5A80BFD316A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Homedevo/Pods-Homedevo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D19735AFF06EF3260316056 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Homedevo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D511C37B7DC13D59362FAB13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Homedevo/Pods-Homedevo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Homedevo/Pods-Homedevo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Homedevo/Pods-Homedevo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1D1B7624568D2687154718C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Homedevo-HomedevoTests/Pods-Homedevo-HomedevoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Homedevo-HomedevoTests/Pods-Homedevo-HomedevoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Homedevo-HomedevoTests/Pods-Homedevo-HomedevoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F068EA00B6F4454B11228179 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* HomedevoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				82329FD226B2EC6500C92B45 /* File.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Homedevo */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F70D3EEDB380D82FF1AAF043 /* Pods-Homedevo-HomedevoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HomedevoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homedevo.app/Homedevo";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1E6895BDBD8071F4C481EC1 /* Pods-Homedevo-HomedevoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = HomedevoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homedevo.app/Homedevo";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89077114398A81991A5BED9A /* Pods-Homedevo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HSL855WFV4;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Homedevo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = homedevo.com;
+				PRODUCT_NAME = Homedevo;
+				PROVISIONING_PROFILE_SPECIFIER = "HomeDevo dev";
+				SWIFT_OBJC_BRIDGING_HEADER = "Homedevo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258D4F88ADFD3966C3362930 /* Pods-Homedevo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HSL855WFV4;
+				INFOPLIST_FILE = Homedevo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = homedevo.com;
+				PRODUCT_NAME = Homedevo;
+				PROVISIONING_PROFILE_SPECIFIER = "HomeDevo dev";
+				SWIFT_OBJC_BRIDGING_HEADER = "Homedevo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "HomedevoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Homedevo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Homedevo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "516604429797",
+    "project_id": "homedevo",
+    "storage_bucket": "homedevo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516604429797:android:3f6a5bf7d1953ef06a5b0c",
+        "android_client_info": {
+          "package_name": "com.homedevo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516604429797-pt70pii4kiepsrb129gg3tks70jnsbnp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnSvOldOMaUzqKUdY20KLOxXK_Uf25HQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516604429797-pt70pii4kiepsrb129gg3tks70jnsbnp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
