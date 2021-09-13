@@ -1,0 +1,9 @@
+com/homedevo/MainApplication.java
+ com.homedevo.MainApplication
+ com.homedevo.MainApplication$1
+com/homedevo/MainActivity.java
+ com.homedevo.MainActivity
+com/homedevo/BuildConfig.java
+ com.homedevo.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

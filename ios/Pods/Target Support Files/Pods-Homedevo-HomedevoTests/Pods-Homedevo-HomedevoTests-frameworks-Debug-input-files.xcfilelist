@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Homedevo-HomedevoTests/Pods-Homedevo-HomedevoTests-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL
+${PODS_XCFRAMEWORKS_BUILD_DIR}/PaymentSDK/PaymentSDK.framework/PaymentSDK

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.paytabs:payment-sdk:6.1.9@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a217c7ef319d7c2c89b1709a6e13213b/jetified-payment-sdk-6.1.9/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a217c7ef319d7c2c89b1709a6e13213b/jetified-payment-sdk-6.1.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a217c7ef319d7c2c89b1709a6e13213b/jetified-payment-sdk-6.1.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a217c7ef319d7c2c89b1709a6e13213b/jetified-payment-sdk-6.1.9/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

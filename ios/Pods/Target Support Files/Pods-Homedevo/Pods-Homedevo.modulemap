@@ -1,0 +1,6 @@
+module Pods_Homedevo {
+  umbrella header "Pods-Homedevo-umbrella.h"
+
+  export *
+  module * { export * }
+}

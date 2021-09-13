@@ -1,0 +1,6 @@
+module Pods_Homedevo_HomedevoTests {
+  umbrella header "Pods-Homedevo-HomedevoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
